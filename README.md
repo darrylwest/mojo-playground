@@ -42,6 +42,7 @@ _Mojo reminds me of swift--structs, strict typing, let and var..._
 * implements tensor
 * testing built in
 * doc strings
+* can compile on linux and run on an alternate machine without mojo (but needs GLIBC_2.34)
 
 #### Not so good
 
@@ -55,6 +56,13 @@ _Many of these are called out in mojo's *sharp edges* document._
 * print_no_newline() rather than print(end="")
 * no base64 decode
 * repl requires using :quit to exit instead of quit()
+
+## Docker
+
+* build on a ubuntu
+* create a tarball of .modular
+* create a python / bookworm image
+* tar the .modular to 
 
 ## References
 
