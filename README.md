@@ -40,6 +40,8 @@ _Mojo reminds me of swift--structs, strict typing, let and var..._
 * functional tools, map_reduce, 
 * base64 encode
 * implements tensor
+* testing built in
+* doc strings
 
 #### Not so good
 
@@ -52,10 +54,11 @@ _Many of these are called out in mojo's *sharp edges* document._
 * unsafe memory, pointers, malloc, free
 * print_no_newline() rather than print(end="")
 * no base64 decode
+* repl requires using :quit to exit instead of quit()
 
 ## References
 
 * [docker container](https://hub.docker.com/r/abequie/mojo)
 * [mojo/modular](developer.modular.com)
 
-###### darryl.west | 2023.10.14
+###### darryl.west | 2023.10.15
