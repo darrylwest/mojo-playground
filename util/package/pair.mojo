@@ -9,3 +9,6 @@ struct Pair:
 
     fn dump(self):
         print(self.first, self.second)
+
+    fn values(self) -> Tuple[Int, Int]:
+        return (self.first, self.second)

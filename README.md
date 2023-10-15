@@ -31,11 +31,12 @@ _Mojo reminds me of swift--structs, strict typing, let and var..._
 #### Good Stuff
 
 * let (immutable) and var (mutable)
-* unsafe memory
 * compiler seems very fast and creates binaries that are not too big (unlike rust or go)
 * async fn and async def
 * variable scope is at the line level, not function
 * packages in directory with `__init__.mojo` ; can be compiled
+* unsafe memory, pointers, malloc, free
+* borrow checker (ala rust)
 
 #### Not so good
 
@@ -45,6 +46,8 @@ _Many of these are called out in mojo's *sharp edges* document._
 * no comprehensions, list or dict
 * no generators
 * no lambda support
+* unsafe memory, pointers, malloc, free
+* print_no_newline() rather than print(end="")
 
 ## References
 
