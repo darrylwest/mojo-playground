@@ -37,6 +37,8 @@ _Mojo reminds me of swift--structs, strict typing, let and var..._
 * packages in directory with `__init__.mojo` ; can be compiled
 * unsafe memory, pointers, malloc, free
 * borrow checker (ala rust)
+* functional tools, map_reduce, 
+* base64 encode
 
 #### Not so good
 
@@ -48,6 +50,7 @@ _Many of these are called out in mojo's *sharp edges* document._
 * no lambda support
 * unsafe memory, pointers, malloc, free
 * print_no_newline() rather than print(end="")
+* no base64 decode
 
 ## References
 
