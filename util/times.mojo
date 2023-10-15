@@ -3,7 +3,7 @@ import time
 fn sleeper(count: Int):
     for n in range(count):
         print_no_newline('.')
-        time.sleep(1)
+        time.sleep(0.1)
 
     print('.')
 
@@ -13,7 +13,7 @@ fn main():
     print('t0 time in nanos:', t0)
 
     print('sleep 3:')
-    sleeper(3)
+    sleeper(30)
     
 
     let t1 = time.now()
