@@ -39,6 +39,7 @@ _Mojo reminds me of swift--structs, strict typing, let and var..._
 * borrow checker (ala rust)
 * functional tools, map_reduce, 
 * base64 encode
+* implements tensor
 
 #### Not so good
 
