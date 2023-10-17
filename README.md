@@ -16,13 +16,13 @@ mojo-playground is for experimenting and learning the mojo AI language
 ### Installation
 
 * installed on debian `Pop!_OS 22.04 LTS` with may problems (mainly with modula installer).
-* last error was `oduleNotFoundError: No module named 'imp' modular: error: failed to run python:`
-* tryied to install on docker debian but was unsuccessful
+* last error was `moduleNotFoundError: No module named 'imp' modular: error: failed to run python:` imp has been deprecated for about 5 years now.
+* tried to install on docker debian but was unsuccessful
 * patched together manually (version 0.4.0).
-* found a container from a 3rd party, but it has version 0.3.1; I will try to build my own to get the latest
+* found a container from a 3rd party, but it has version 0.3.1; but used its template to build my own to get the latest
 * mojo is huge runnable 78M with huge dependencies, so it's a real pain to install.
 * there is a modular.cfg that points to lldb etc.  when it's installed on docker as root, it needs to be updated with the path to lldb, etc.
-* got working inside my python3.11 container; need to do the same for python3.12 then publish a new build
+* got mojo working inside my python3.11 & python3.12 containers; published the build
 
 ### Language Overview
 
@@ -55,6 +55,11 @@ _Many of these are called out in mojo's *sharp edges* document._
 * print_no_newline() rather than print(end="")
 * no base64 decode
 * repl requires using :quit to exit instead of quit()
+
+## Summary
+
+Too new to use seriously.  It looks like their target is AI community with easy hooks to python.  
+But, it seems more like swift than python.  Probably better to use rust if you want the best performance.
 
 ## References
 
