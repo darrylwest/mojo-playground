@@ -15,7 +15,7 @@ mojo-playground is for experimenting and learning the mojo AI language
 
 ### Installation
 
-* installed on debian `Pop!_OS 22.04 LTS` with may problems (mainly with modula installer).
+* installed on debian `Pop!_OS 22.04 LTS` with may problems (mainly with modular installer).
 * last error was `moduleNotFoundError: No module named 'imp' modular: error: failed to run python:` imp has been deprecated for about 5 years now.
 * tried to install on docker debian but was unsuccessful
 * patched together manually (version 0.4.0).
@@ -66,4 +66,4 @@ But, it seems more like swift than python.  Probably better to use rust if you w
 * [docker container](https://hub.docker.com/r/abequie/mojo)
 * [mojo/modular](developer.modular.com)
 
-###### darryl.west | 2023.10.15
+###### darryl.west | 2023.10.17
