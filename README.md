@@ -65,5 +65,6 @@ But, it seems more like swift than python.  Probably better to use rust if you w
 
 * [docker container](https://hub.docker.com/r/abequie/mojo)
 * [mojo/modular](developer.modular.com)
+* [mojo on mac (silicon)](https://www.modular.com/blog/mojo-is-now-available-on-mac)
 
-###### darryl.west | 2023.10.17
+###### darryl.west | 2023.10.19
